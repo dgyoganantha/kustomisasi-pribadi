@@ -2,6 +2,54 @@
 /*! tailwindcss v2.2.4 | MIT License | https://tailwindcss.com  */
 /*! modern-normalize v1.1.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*! custom style css by danendra-ganesh */
+:root {
+  --border-radius:.75rem;
+  --rounded-default:var(--border-radius);
+  --max-w-container:1240px;
+  --text-white:#fff;
+  --text-black:#000;
+  --text-dark:rgb(14,17,17);
+  --text-hover:rgb(59,233,169);
+  --accent-color:var(--secondary-color);
+  --border-bg:rgba(229,229,229,1);
+  --border-bgDark:rgb(79,79,79);
+  --body-bg:#fafafa;
+  --body-bgDark:rgb(14,17,17);
+  --headertop-bg:#064635;
+  --headertop-bgDark:rgb(26,32,31);
+  --headerbottom-bg:#fbfbfa;
+  --headerbottom-bgDark:rgb(14,17,17);
+  --main-nav-bg:#064635;
+  --main-nav-bgDark:rgb(26,32,31);
+  --navbar-bg:#064635;
+  --navbar-bgDark:rgb(26,32,31);
+  --navbar-border:#519259;
+  --navbar-borderDark:rgb(26,32,31);
+  --navbar-hover:#519259;
+  --dropdown-bg:#064635;
+  --dropdown-bgDark:rgb(26,32,31);
+  --footer-bg:rgb(0,31,25);
+  --footer-bgDark:rgb(5,19,16);
+  --footer-border:#519259;
+  --footer-smed-bg:#064635;
+  --footer-hover:#519259;
+  --card-bg:rgb(255,255,255);
+  --card-bgDark:rgb(26,32,31);
+  --konten-bg:var(--card-bg);
+  --konten-bgDark:var(--card-bgDark);
+  --formsearch-bg:rgb(255,255,255);
+  --formsearch-bgDark:rgb(38,46,44);
+  --forminput-bg:rgb(235,236,237);
+  --forminput-bgDark:rgb(38,46,44);
+  --scroltop-bg:rgb(239 68 68);
+  --scroltop-bgAlt:rgb(239 68 68);
+  --scroltop-hover:rgb(248 113 113);
+  --bg-green-300:#6EE7B7;
+  --bg-green-500:rgb(16,185,129);
+  --bg-green-600:rgb(5,150,105);
+  --bg-green-700:rgb(4,120,87);
+  --table-bg:rgb(75,85,99,)
+}
 .text-red-500{
 	color:#ef4444
 }
@@ -1835,27 +1883,4 @@ code,kbd,pre,samp{
 	--tw-ring-color:none;
 	background-color:rgb(52 211 153);
 	color:var(--text-white)
-}
-.slider-content{
-	height:auto !important
-}
-.slider-content .owl-item{
-	height:auto !important
-}
-@media (min-width:1024px){
-	.slider-content{
-		height:auto !important
-}
-}
-@media (min-width:1024px){
-	.slider-content .owl-item{
-		height:auto !important
-}
-}
-.slider-item{
-	height:auto !important
-}
-.slider-image{
-	height:auto !important;
-	width:100%
 }
